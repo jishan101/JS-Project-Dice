@@ -1,0 +1,117 @@
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: 40%;
+    background-color: rgb(199, 197, 197);
+}
+
+.container {
+    position: relative;
+    padding-top: 110px;
+}
+
+.title {
+    font-size: 50pt;
+    padding-bottom: 20px;
+}
+
+.playerBtns {
+    display: inline-flex;
+}
+
+.player1 {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.player2 {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.player3 {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.player4 {
+    text-align: center;
+    padding-right: 20px;
+}
+
+#p1Btn {
+    font-size: 15pt;
+    padding-inline: 30px;
+    padding-block: 8px;
+    background-color: red;
+    border-color: red;
+}
+
+#p2Btn {
+    font-size: 15pt;
+    padding-inline: 30px;
+    padding-block: 8px;
+    background-color: blue;
+    border-color: blue;
+}
+
+#p3Btn {
+    font-size: 15pt;
+    padding-inline: 30px;
+    padding-block: 8px;
+    background-color: #9b9b06;
+    border-color: #9b9b06;
+}
+
+#p4Btn {
+    font-size: 15pt;
+    padding-inline: 30px;
+    padding-block: 8px;
+    background-color: green;
+    border-color: green;
+}
+
+.score {
+    font-size: 15pt;
+}
+
+#resetBtn {
+    font-size: 20pt;
+    padding-inline: 30px;
+    padding-block: 8px;
+    background-color: rgb(230, 119, 16);
+    border-color: rgb(230, 119, 16);
+}
+
+.resetContainer {
+    position: relative;
+    padding-block: 35px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    padding: 10px 10px 40px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+    /*background: rgb(87, 87, 87);*/
+}
+
+footer a {
+    color: #007BFF;
+}
+
+#ludo {
+    font-size: 20pt;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+#chess {
+    font-size: 50px;
+    color: #007BFF;
+}

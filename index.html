@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <title>Dice</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class = "container">
+        <h1 class = "title"><b>Dice</b></h1>
+        <div class = "playerBtns">
+            <div class = "player1">
+                <p><pre id = "p1Six" class = "sixCount"> </pre></p>
+                <p><pre id = "p1Score" class = score> </pre></p>
+                <button class = "btn btn-primary" id = "p1Btn" disabled = "disabled"><b>PLAYER 1</b></button>
+            </div>
+            <div class = "player2">
+                <p><pre id = "p2Six" class = "sixCount"> </pre></p>
+                <p><pre id = "p2Score" class = score> </pre></p>
+                <button class = "btn btn-primary" id = "p2Btn" disabled = "disabled"><b>PLAYER 2</b></button>
+            </div>
+            <div class = "player3">
+                <p><pre id = "p3Six" class = "sixCount"> </pre></p>
+                <p><pre id = "p3Score" class = score> </pre></p>
+                <button class = "btn btn-primary" id = "p3Btn" disabled = "disabled"><b>PLAYER 3</b></button>
+            </div>
+            <div class = "player4">
+                <p><pre id = "p4Six" class = "sixCount"> </pre></p>
+                <p><pre id = "p4Score" class = score> </pre></p>
+                <button class = "btn btn-primary" id = "p4Btn" disabled = "disabled"><b>PLAYER 4</b></button>
+            </div>
+        </div>
+        <div class = "resetContainer">
+            <button class = "btn btn-primary" id = "resetBtn"><b>RESET</b></button>
+        </div>
+        <p id = "ludo"><i>Ludo is a waste of time. Play <span id = "chess">CHESS</span>!</i></p>
+    </div>
+    <footer class = "footer">Project by: <a target="_blank" href="https://www.facebook.com/rko.jishan/">Irfanul Islam Jishan</a></footer>
+    <script src="main.js"></script>
+</body>
+</html>
